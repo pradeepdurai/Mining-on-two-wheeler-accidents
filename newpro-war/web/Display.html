@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            .header {
+                padding: 10px;
+                text-align: center;
+                background: #1abc9c;
+                color: white;
+            }
+            /* Style the top navigation bar */
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            .navbar a.right{
+                float: right;
+            }
+            .navbar a.right:hover{
+                background-color: #ccc
+            }
+            .navbar a.men1{
+                background-color: #0047ab;
+                cursor: pointer;
+            }
+            .navbar a.men:hover{
+                background-color: #ccc;
+                cursor: pointer;
+            }
+            .navbar a.home:hover{
+                background-color: #ccc;
+                cursor: pointer;
+            }
+            .dropbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover {background-color: #f1f1f1}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="log">
+            <div class="header">
+                <h1>Mining On Two Wheeler Accidents</h1>
+                <p></p>
+            </div>
+            <div class="navbar">
+                <a class="home" href="#">Home</a>
+                <a class="men" href="About.html">About</a>
+                <a class="men1" href="Modules.html">Modules</a>
+                <a  href="index.html" class="right">Logout</a>
+                <a  href="Signup.html" class="right">Sign up</a>
+            </div>
+        </div>
+
+        <h2>Analysis Results</h2>
+        <p>Here we done various analysis and put the results into dropdown menu </p>
+        <p>You can view the accident analysis results in the form of graph</p>
+
+        <div class="dropdown">
+            <button class="dropbtn">Analysis Results</button>
+            <div class="dropdown-content">
+                <a href="Age.html">Age Wise Analysis</a>
+                <a href="vehicle.html">vehicle Type Analysis</a>
+                <a href="un.html">Gender Wise Analysis</a>
+                <a href="light.html">ligting Condition Analysis</a>
+                <a href="weather.html">weather Condition Analysis</a>
+                <a href="week.html">Week Days Analysis</a>
+                <a href="area.html">Area Type Analysis</a>
+            </div>
+        </div>
+        <p>Here we done the various analysis and categorize the accident in Age Wise,Gender Wise and vehicle type Wise.</p>
+        <p>Also we found the factors of two wheeler accidents and also categorize. we formed the graphs to represent the factors of the two wheeler accidents.</p>
+        <p><strong></strong></p>
+    </body>
+</html>
